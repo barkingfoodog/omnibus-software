@@ -18,6 +18,8 @@ name "preparation"
 description "the steps required to preprare the build"
 default_version '1.0.0'
 
+license "Apache 2.0"
+
 build do
   block do
     touch "#{install_dir}/embedded/lib/.gitkeep"
